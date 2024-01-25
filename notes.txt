@@ -1,0 +1,71 @@
+                        java
+**comments
+-for an inline comment : //in-line comment
+-for a multi line comment : /* ...... */
+**data type & variables
+undefined , null ,  boolean, string , symbol, number.....
+- variable is like a memory location tat function as a storage in a program
+- var myname = "Mohamed" //it can be used thro the wole program
+- let myname = "mohamed" //it only can be used were i declare it
+- const pi = 3.14 // a variable tat cna never change
+/* 
+to print out the output 
+  console.log(variable);
+*/
+-one use of string is:
+var c  = "i am a";
+c = c + " string";
+*for operations it'is pretty much like in C
+-var d = 1 + 3;
+-var f = 1 - 3;
+..... and so on for other operations.
+as well as for incrementing and decrementing
+for strings  liek in tis example :
+var string = "i am a " double quotes" string inside " double quotes"";
+we can just add / before the quotes
+********************************
+to know wut type of data we have
+console.log(typeof <name of data type>)
+equal to :value comparison /value and type 
+console.log(4 == '4')
+output = true
+console.log(4 === '4')
+output = false
+same as with not equal
+
+ result = num * result 
+ num--
+
+
+   *
+  ***
+ *****
+*******  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
