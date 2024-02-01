@@ -21,7 +21,7 @@ console.log("After swapping: a = ", a, " and b = ", b);
 let number = 8;
 var test = number % 2
 test == 0 ? console.log("even") : console.log("odd");
-var day = 4;
+var day = 6;
 switch(day){
   case 1:
     console.log("Monday")
@@ -44,6 +44,19 @@ switch(day){
   case 7:
     console.log("Sunday")
     break;
-    default:
+  default:
       console.log("Unvalid Day");
 }
+let result = 1
+for (let i = 9; i >= 1; i--)
+{
+  result *= i
+} 
+console.log(result)
+let num = 123542 
+let x 
+for (x = 1; num > 10; x++)
+{
+  num = num / 10
+}
+console.log(x)

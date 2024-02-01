@@ -40,8 +40,7 @@ function akin (numbers){
 function selection (numbers){
   let  arraylength = numbers.length
   let x
-  let y 
-  let k 
+  let y
   for (let i = 0; i < arraylength - 1; i++)
   {
     x = i
@@ -63,6 +62,7 @@ function selection (numbers){
 numbers1 = [1, 9, 10, -3, 2 ,-6, 100, -5]
 let num3 = selection(numbers1)
 console.log(num3)
+
 function linear (numbers, n){
   let arraylength = numbers.length
    for (let i = 0; i < arraylength; i++)
