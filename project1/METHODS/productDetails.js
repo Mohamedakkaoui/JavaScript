@@ -1,4 +1,12 @@
-const detailproduct = (products, idpar) => 
+/**
+ * detailProduct - looks for the the speified product by its ID
+ * 
+ * @param {string} products - An array of products objects
+ * @param {number} idpar -  the ID by which to look for specified ID
+ * 
+ * @returns - the product with the specified ID 
+ */
+const detailProduct = (products, idpar) => 
 {
   let n = products.length
   for (let i = 0; i < n; i++)
@@ -9,28 +17,6 @@ const detailproduct = (products, idpar) =>
     }
   }
 }
-// let myArray = [
-//   {
-//     id: 1,
-//     title: "Object 1",
-//     name: "John Doe",
-//     description: "This is the description for Object 1."
-//   },
-//   {
-//     id: 2,
-//     title: "Object 2",
-//     name: "Jane Smith",
-//     description: "This is the description for Object 2."
-//   },
-//   {
-//     id: 3,
-//     title: "Object 3",
-//     name: "Bob Johnson",
-//     description: "This is the description for Object 3."
-//   }
-// ];
-
-// console.log(detailproduct(myArray, 1))
 module.exports ={
-  detailproduct
+  detailProduct
 }
