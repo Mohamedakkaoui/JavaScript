@@ -1,3 +1,10 @@
+/**
+ * calculateAveragePrice - calculate the average price of all products
+ * 
+ * @param {string} products - An array of products objects
+ * 
+ * @returns return the average price of all the products 
+ */
 const calculateAveragePrice =(products) => 
 {
   let result
